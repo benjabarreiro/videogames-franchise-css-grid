@@ -1,0 +1,71 @@
+body {
+	display: grid;
+	grid-template-columns: repeat(6, 200px);
+	grid-template-rows: repeat(6, 200px);
+	grid-template-areas: "cod cod cod cod cod cod" "cod2 cod3 waw codfh bo bo2" "gta gta gta gta gta gta" "sa sa vc vc v v" "aoe aoe aoe aoe aoe aoe" "aoe2 aoe2hd aoe2hd aoe3 aoe3 myth";
+}
+
+.cod {
+	grid-area: cod;
+	background-color: lightsalmon;
+}
+.cod2 {
+	grid-area: cod2;
+	background-color: lightsteelblue;
+}
+.cod3 {
+	grid-area: cod3;
+	background-color: mediumslateblue;
+}
+.codfh {
+	grid-area: codfh;
+	background-color: mediumslateblue;
+}
+.waw {
+	grid-area: waw;
+	background-color: lightsteelblue;
+}
+.bo {
+	grid-area: bo;
+	background-color: lightsteelblue;
+}
+.bo2 {
+	grid-area: bo2;
+	background-color: mediumslateblue;
+}
+.gta {
+	grid-area: gta;
+	background-color: lightsalmon;
+}
+.sa {
+	grid-area: sa;
+	background-color: mediumslateblue;
+}
+.vc {
+	grid-area: vc;
+	background-color: lightsteelblue;
+}
+.v {
+	grid-area: v;
+	background-color: mediumslateblue;
+}
+.aoe {
+	grid-area: aoe;
+	background-color: lightsalmon;
+}
+.aoe2 {
+	grid-area: aoe2;
+	background-color: lightsteelblue;
+}
+.aoe2hd {
+	grid-area: aoe2hd;
+	background-color: mediumslateblue;
+}
+.aoe3 {
+	grid-area: aoe3;
+	background-color: lightsteelblue;
+}
+.myth {
+	grid-area: myth;
+	background-color: mediumslateblue;
+}
